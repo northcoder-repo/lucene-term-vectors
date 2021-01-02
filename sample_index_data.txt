@@ -1,0 +1,119 @@
+cfs entry for: _v.fld
+doc 0
+  field 0
+    name doc_id_field
+    type string
+    value doc one
+END
+checksum 00000000001670481983
+cfs entry for: _v.inf
+number of fields 2
+  name doc_id_field
+  number 0
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+  name body
+  number 1
+  index options DOCS
+  term vectors true
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+checksum 00000000003192734106
+cfs entry for: _v.len
+field body
+  type NUMERIC
+  minvalue 5
+  pattern 0
+0
+T
+END
+checksum 00000000001610570789
+cfs entry for: _v.pst
+field body
+  term amet
+    doc 0
+  term dolor
+    doc 0
+  term ipsum
+    doc 0
+  term lorem
+    doc 0
+  term sit
+    doc 0
+field doc_id_field
+  term doc one
+    doc 0
+END
+checksum 00000000000378435258
+cfs entry for: _v.vec
+doc 0
+  numfields 1
+  field 1
+    name body
+    positions true
+    offsets   true
+    payloads  false
+    numterms 5
+    term amet
+      freq 1
+      position 4
+        startoffset 25
+        endoffset 29
+    term dolor
+      freq 1
+      position 2
+        startoffset 14
+        endoffset 19
+    term ipsum
+      freq 2
+      position 1
+        startoffset 8
+        endoffset 13
+      position 5
+        startoffset 30
+        endoffset 35
+    term lorem
+      freq 1
+      position 0
+        startoffset 0
+        endoffset 5
+    term sit
+      freq 1
+      position 3
+        startoffset 21
+        endoffset 24
+END
+checksum 00000000001340881248
+table of contents, size: 5
+  filename: _v.fld
+    start: 22
+    end: 128
+  filename: _v.inf
+    start: 150
+    end: 707
+  filename: _v.len
+    start: 729
+    end: 818
+  filename: _v.pst
+    start: 840
+    end: 1041
+  filename: _v.vec
+    start: 1063
+    end: 1714
+table of contents begins at offset: 0000000000000001714
