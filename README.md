@@ -1,2 +1,3 @@
 # lucene-term-vectors
-Lucene v8.7.0 term vectors examples
+
+See [Lucene Fields and Term Vectors](https://northcoder.com/post/lucene-fields-and-term-vectors/) for details.
